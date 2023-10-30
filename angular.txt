@@ -1,0 +1,145 @@
+1) pre-required
+	html
+	css
+	js
+	------------
+	1) get and set
+	2) Object create
+	3) json data
+	4) Array
+	5) Promis
+	6) template litral
+	7) multi line string
+	8) destructuring
+2) require for angular
+	1) ts
+	2) node.js
+	3) npm
+	4) git
+-----------------------------------------------
+3) install
+	1) node.js
+	2) git bash
+	3) git account	
+------------------------------------------
+4) web version 1.0 vs 2.0 
+5) about v8 eng
+6) what is node.js
+7) CLI vs GUI
+8) flag (-v)  (sortkey) 
+9) default color ( black and white)
+10) npm
+------------------------------------------
+11) typescript
+	1) npm install -g typescript
+	2) tsc filename    // compile ts file in js
+Note: code .   // open in vscode
+Note:  tsc abc.ts | node abc.js 	// ts and js both compilar 
+12) import and export
+	1) name export / import {}
+	2) default export / import
+------------------------------------------------------
+js basic rules (.js) info
+========================
+1) js : use cammal case
+2) js: case sansative language
+3) js: scripting language
+4) js: scroping rules
+5) js key
+	1) function
+	2) object
+	3) methods
+	4) property
+	5) events
+	6) error
+	7) operators
+	8) datatype
+	9) variable
+	10) return
+	11) keywords
+6) types of function
+	1) pre-define	(inbuild)
+	2) user-define (custom)
+7) types of object
+	1) real object (all html element)
+	2) virtual object 
+8) types of events
+	1) mouse
+	2) keybord
+	3) window
+9) types of error
+	1) syntex
+	2) logical
+		a) datatype
+		b) operators
+10) types of operators
+	Arithmetic Operators
+	Assignment Operators
+	Comparison Operators
+	String Operators
+	Logical Operators
+	Bitwise Operators
+	Ternary Operators
+	Type Operators
+11) types of variable
+	1) local variable ( local scope)
+	2) global variable (global scope)
+12) variable define key
+	1) var
+	2) let
+	3) const 
+13) .   access methods and property of the object
+14) new  create virtual object
+15) this    select current object/ access current object
+16) function name and variable name
+	1) can't use js keyword
+	2) can't start from number
+	3) can't use special charectors
+	4) can't use non-printing charector (space)
+--------------------------------------------------------  
+ 17) "use strict" 
+18) datatype define( string,number, array,tuples, function)
+--------------------------------------------------------------
+
+
+Angular Cli
+=============================
+1) install
+	1) npm install @angular/cli
+2) create angular project
+	ng new projectname
+	ng serve	// start service / run
+Note: default port no : 4200
+
+git
+=======================================
+	1) git login
+	2) create repo (Repositories)
+	Note: repo name and project name must have same
+	3) git init	// Initialized
+	4) git add --all	// add all file
+	5) git remote -v	// check connection
+	6) git remote add origin path 
+	7) git push origin master // default branch
+	8) git clone <path> 
+	Note: after clone  npm install
+	9) git pull origin <name of branch>
+	----------------------------------------
+		1) git add --all
+		2) git commit -m "message"
+		3) git pull origin master
+		------------
+		4) npm install 		// if install new package or cloing
+	
+	
+
+	
+
+	
+
+
+
+	
+		
+ 
+
