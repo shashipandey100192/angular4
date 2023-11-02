@@ -135,6 +135,21 @@ git
 	ng g c <component name>
 4) nested component / child component
 5) interpolation/ expressions {{}} 
+-------------------------------------------------------------------
+6) ui component
+	1) custom (html css)
+	2) bootstrap
+	3) angular bootstrap
+	4) angular metrial
+7) directory structure
+8) dependencies / divdependencies
+9) bootstrap
+	npm install bootstrap 		// current version of the package 
+	npm uninstall bootstrap		// uninstall package
+	npm install bootstrap@4.0.0	// install particular version of package
+	
+
+
 
 	
 	
