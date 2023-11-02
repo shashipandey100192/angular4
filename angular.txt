@@ -130,6 +130,13 @@ git
 		3) git pull origin master
 		------------
 		4) npm install 		// if install new package or cloing
+-----------------------------------------------------------------------
+3) create component / insert page 
+	ng g c <component name>
+4) nested component / child component
+5) interpolation/ expressions {{}} 
+
+	
 	
 	
 
