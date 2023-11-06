@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./myhome.component.scss']
 })
 export class MyhomeComponent {
-
+  abc:string="kumar";
+  name="this is user name";
 }

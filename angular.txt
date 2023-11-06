@@ -147,6 +147,16 @@ git
 	npm install bootstrap 		// current version of the package 
 	npm uninstall bootstrap		// uninstall package
 	npm install bootstrap@4.0.0	// install particular version of package
+--------------------------------------------------------------------
+10) angular bootstrap
+	1) ng add @angular/localize
+	2) ng add @ng-bootstrap/ng-bootstrap
+Note: npm cache clean --force, npm cache clean,npm cache verify
+11) Angular Material
+	1) ng add @angular/material
+	2) import 
+12) angular simple routing
+	
 	
 
 
