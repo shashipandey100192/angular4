@@ -1,0 +1,31 @@
+<div class="container border shadow mt-3">
+    <div class="row">
+        <div class="col-12 p-5">
+            <h1>Angular Pipe Features</h1>
+            <fieldset class="border">
+                <legend>angular text pipe / filter</legend>
+                
+            <h2> text filter: {{a}}  {{a | uppercase}}  {{a | lowercase}}</h2>
+            <h2> text filter: {{a | titlecase}}</h2>
+        </fieldset>
+
+            <h1>Price of Course: {{price}}</h1>
+            <h1>Price of Course: {{price | currency}}</h1>
+            <h1>Price of Course: {{price | currency:'INR'}}</h1>
+            <h1>Price of Course: {{price | currency:'INR'}}</h1>
+
+
+        <h1>Date: {{mydate | date}}</h1>
+        <h1>Date: {{mydate | date: 'medium'}}</h1>
+        <h1>Date: {{mydate | date: 'shortTime'}}</h1>
+        <h1>Date: {{mydate | date: 'yyyy MMMM dd --- s'}}</h1>
+
+
+        <h1>Price of Course: {{price | percent}}</h1>
+
+        <h1>json data: {{myarray}}</h1>
+        <h1>json data: {{myarray | json}}</h1>
+
+        </div>
+    </div>
+</div>

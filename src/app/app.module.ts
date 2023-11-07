@@ -11,6 +11,8 @@ import { NgbAccordionModule } from '@ng-bootstrap/ng-bootstrap';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
+import { MypipeComponent } from './mypipe/mypipe.component';
+import { LandingpageComponent } from './landingpage/landingpage.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import {MatCardModule} from '@angular/material/card';
     MyhomeComponent,
     AboutusComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    MypipeComponent,
+    LandingpageComponent
   ],
   imports: [
     BrowserModule,

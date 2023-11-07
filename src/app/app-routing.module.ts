@@ -3,11 +3,13 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
 import { MyhomeComponent } from './myhome/myhome.component';
+import { MypipeComponent } from './mypipe/mypipe.component';
+import { LandingpageComponent } from './landingpage/landingpage.component';
 
 const routes: Routes = [
   {
     path:'',
-    component:AppComponent
+    component:LandingpageComponent
   },
   {
     path:'about',
@@ -16,6 +18,10 @@ const routes: Routes = [
   {
     path:'home',
     component:MyhomeComponent
+  },
+  {
+    path:'pipe',
+    component:MypipeComponent
   }
 ];
 

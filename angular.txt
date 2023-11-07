@@ -156,6 +156,22 @@ Note: npm cache clean --force, npm cache clean,npm cache verify
 	1) ng add @angular/material
 	2) import 
 12) angular simple routing
+-----------------------------------------------------------------
+13) angular @pipe / filter / decorator
+	AsyncPipe
+	DatePipe
+	I18nPluralPipe
+	I18nSelectPipe
+	JsonPipe
+	LowerCasePipe
+	CurrencyPipe
+	DecimalPipe
+	PercentPipe
+	SlicePipe
+	UpperCasePipe
+	TitleCasePipe
+	KeyValuePipe
+	
 	
 	
 
