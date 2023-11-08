@@ -171,6 +171,10 @@ Note: npm cache clean --force, npm cache clean,npm cache verify
 	UpperCasePipe
 	TitleCasePipe
 	KeyValuePipe
+--------------------------------------------------------
+14) angular directives
+	1) ngClass
+	
 	
 	
 	

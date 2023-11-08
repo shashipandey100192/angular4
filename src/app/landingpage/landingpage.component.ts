@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class LandingpageComponent {
 
+  a:boolean=false;
+  b:boolean=true;
+  c:boolean=true;
+
+  staus:string="inrange";
 }
+
+
