@@ -1,0 +1,142 @@
+<p>features works!</p>
+
+<div [className]="'container'">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card text-bg-primary mb-3">
+                <div class="card-header">Header</div>
+                <div class="card-body">
+                  <h5 class="card-title">Primary card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card text-bg-danger mb-3">
+                <div class="card-header">Header</div>
+                <div class="card-body">
+                  <h5 class="card-title">Primary card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card text-bg-success mb-3">
+                <div class="card-header">Header</div>
+                <div class="card-body">
+                  <h5 class="card-title">Primary card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card text-bg-warning mb-3">
+                <div class="card-header">Header</div>
+                <div class="card-body">
+                  <h5 class="card-title">Primary card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+        </div>
+    </div>
+</div>
+
+
+<div>
+    <h1 *ngIf=abc>this is true condition</h1>
+    <h3>this is true condition</h3>
+</div>
+
+<div *ngIf="mycondtion; else one">
+    <h1>this is true condtion 11</h1>
+</div>
+
+<ng-template #one>
+    <h2>this is angular templateswwwwwwwwwwwwwwww</h2>
+</ng-template>
+
+<div class="container">
+    <div class="row" *ngIf="xyz; then two else elseBlock">
+        <div class="col-12">
+            <div class="card text-bg-primary mb-3">
+                <div class="card-header">true condition</div>
+                <div class="card-body">
+                  <h5 class="card-title">Primary card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+        </div> 
+    </div>
+<ng-template #two>
+    <div class="row">
+        <div class="col-12">
+            <div class="card text-bg-success mb-3">
+                <div class="card-header">then condtion</div>
+                <div class="card-body">
+                  <h5 class="card-title">Primary card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+        </div> 
+    </div>
+</ng-template>
+<ng-template #elseBlock>
+    <div class="row">
+        <div class="col-12">
+            <div class="card text-bg-danger mb-3">
+                <div class="card-header">false condition</div>
+                <div class="card-body">
+                  <h5 class="card-title">Primary card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+        </div> 
+    </div>
+</ng-template>
+</div>
+
+
+<input [(ngModel)]="abcd">
+
+{{abcd}}
+
+
+<div class="container">
+    <div class="row" *ngIf="abcd; then two else elseBlock">
+        <div class="col-12">
+            <div class="card text-bg-primary mb-3">
+                <div class="card-header">true condition</div>
+                <div class="card-body">
+                  <h5 class="card-title">Primary card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+        </div> 
+    </div>
+<ng-template #two>
+    <div class="row">
+        <div class="col-12">
+            <div class="card text-bg-success mb-3">
+                <div class="card-header">then condtion</div>
+                <div class="card-body">
+                  <h5 class="card-title">Primary card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+        </div> 
+    </div>
+</ng-template>
+<ng-template #elseBlock>
+    <div class="row">
+        <div class="col-12">
+            <div class="card text-bg-danger mb-3">
+                <div class="card-header">false condition</div>
+                <div class="card-body">
+                  <h5 class="card-title">Primary card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+        </div> 
+    </div>
+</ng-template>
+</div>

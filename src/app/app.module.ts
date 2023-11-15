@@ -13,6 +13,8 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
 import { MypipeComponent } from './mypipe/mypipe.component';
 import { LandingpageComponent } from './landingpage/landingpage.component';
+import { FeaturesComponent } from './features/features.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,8 @@ import { LandingpageComponent } from './landingpage/landingpage.component';
     HeaderComponent,
     FooterComponent,
     MypipeComponent,
-    LandingpageComponent
+    LandingpageComponent,
+    FeaturesComponent
   ],
   imports: [
     BrowserModule,
@@ -30,7 +33,8 @@ import { LandingpageComponent } from './landingpage/landingpage.component';
     NgbAccordionModule,
     BrowserAnimationsModule,
     MatButtonModule,
-    MatCardModule
+    MatCardModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

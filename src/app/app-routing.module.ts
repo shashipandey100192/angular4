@@ -5,6 +5,7 @@ import { AboutusComponent } from './aboutus/aboutus.component';
 import { MyhomeComponent } from './myhome/myhome.component';
 import { MypipeComponent } from './mypipe/mypipe.component';
 import { LandingpageComponent } from './landingpage/landingpage.component';
+import { FeaturesComponent } from './features/features.component';
 
 const routes: Routes = [
   {
@@ -22,6 +23,10 @@ const routes: Routes = [
   {
     path:'pipe',
     component:MypipeComponent
+  },
+  {
+    path:'mydirective',
+    component:FeaturesComponent
   }
 ];
 
