@@ -178,6 +178,16 @@ Note: npm cache clean --force, npm cache clean,npm cache verify
 	2) ngif(), else then
 	3) ng-template
 	
+15) page types
+	1) full page
+		a) landing
+		b) home
+	2) blank page
+		a) login
+		b) logout
+		c) error page / 404
+		d) forget page
+
 	
 	
 	
