@@ -3,24 +3,24 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NgbAccordionModule } from '@ng-bootstrap/ng-bootstrap';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {MatButtonModule} from '@angular/material/button';
-import {MatCardModule} from '@angular/material/card';
-import { FormsModule } from '@angular/forms';
+import { MyheaderComponent } from './shares/myheader/myheader.component';
+import { MyfooterComponent } from './shares/myfooter/myfooter.component';
+import { MysidebarComponent } from './shares/mysidebar/mysidebar.component';
+import { FullpageComponent } from './layouts/fullpage/fullpage.component';
+import { BlankpageComponent } from './layouts/blankpage/blankpage.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MyheaderComponent,
+    MyfooterComponent,
+    MysidebarComponent,
+    FullpageComponent,
+    BlankpageComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    NgbAccordionModule,
-    BrowserAnimationsModule,
-    MatButtonModule,
-    MatCardModule,
-    FormsModule
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

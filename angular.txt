@@ -187,6 +187,9 @@ Note: npm cache clean --force, npm cache clean,npm cache verify
 		b) logout
 		c) error page / 404
 		d) forget page
+16) create module with routing
+	ng g m student --routing
+	
 
 	
 	
