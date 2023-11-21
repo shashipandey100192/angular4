@@ -23,6 +23,7 @@ import { BlankpageComponent } from './layouts/blankpage/blankpage.component';
     AppRoutingModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  
 })
 export class AppModule { }

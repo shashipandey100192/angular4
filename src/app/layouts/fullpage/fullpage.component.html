@@ -1,1 +1,19 @@
-<router-outlet></router-outlet>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+           <app-myheader></app-myheader>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-2">
+            <section class="border">
+            <h2>sidebar</h2>
+        </section>
+        </div>
+        <div class="col-md-10">
+            <section class="border">
+                <router-outlet></router-outlet>
+            </section>
+        </div>
+    </div>
+</div>

@@ -189,6 +189,9 @@ Note: npm cache clean --force, npm cache clean,npm cache verify
 		d) forget page
 16) create module with routing
 	ng g m student --routing
+--------------------------------------------------------
+17) module routing/ lazy loading
+	loadChildren: ()=> import('./auth/auth.module').then((m)=>{m.AuthModule})
 	
 
 	
