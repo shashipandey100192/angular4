@@ -1,7 +1,29 @@
-<p>login works!</p>
-<p>login works!</p>
-<p>login works!</p>
-<p>login works!</p>
-<p>login works!</p>
-<p>login works!</p>
-<p>login works!</p>
+<div class="container-fluid bg-info cus-h">
+    <div class="row justify-content-md-center">
+        <div class="col-3">
+            <div class="border login p-5 mt-5 rounded-4 shadow text-white">
+                    <div class=" text-center ">
+                        <img src="https://png.pngtree.com/png-vector/20190919/ourmid/pngtree-user-login-or-authenticate-icon-on-gray-background-flat-icon-ve-png-image_1742031.jpg" width="100" class="rounded-circle mb-5"/>
+                    </div>
+                <form>
+                    <div class="mb-3">
+                      <label class="form-label">Email address</label>
+                      <input type="email" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                      <label class="form-label">Password</label>
+                      <input type="password" class="form-control">
+                    </div>
+                    <div class="mb-3 form-check">
+                      <input type="checkbox" class="form-check-input">
+                      <label class="form-check-label">Check me out</label>
+                      <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover ms-5" [routerLink]="['forget']">
+                       forget page
+                      </a>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+            </div>
+        </div>
+    </div>
+</div>
