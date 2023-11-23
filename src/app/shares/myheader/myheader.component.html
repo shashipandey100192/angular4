@@ -14,13 +14,12 @@
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
+             modules
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><a class="dropdown-item" [routerLink]="['']">auth</a></li>
+              <li><a class="dropdown-item" [routerLink]="['/dashboard']">dashboard</a></li>
+              <li><a class="dropdown-item" [routerLink]="['/student']">student</a></li>
             </ul>
           </li>
           <li class="nav-item">
@@ -30,7 +29,35 @@
         <form class="d-flex" role="search">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-success" type="submit">Search</button>
+          <span class="badge text-bg-primary p-2 ms-2" (click)="myapplication()"><i class="fa fa-th fa-2x"></i></span>
+          
         </form>
+        <div class="myapp" [ngStyle]="{'display':myapp}">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-4 p-2">
+                <section  class="border bg-white p-3 pb-1 bt-1" [routerLink]="['/dashboard']">
+                <img src="https://static-00.iconduck.com/assets.00/google-icon-2048x2048-czn3g8x8.png" class="img-fluid">
+                <p>Google</p>
+              </section>
+              </div>
+              <div class="col-md-4 p-2">
+                <section  class="border bg-white p-3 pb-1 bt-1" [routerLink]="['/auth']">
+                <img src="https://cdn-icons-png.flaticon.com/512/1791/1791961.png" class="img-fluid">
+                <p>Google</p>
+              </section>
+              </div>
+              <div class="col-md-4 p-2">
+                <section  class="border bg-white p-3 pb-1 bt-1" [routerLink]="['/student']">
+                <img src="https://cdn-icons-png.flaticon.com/512/5850/5850276.png" class="img-fluid">
+                <p>Google</p>
+              </section>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
       </div>
     </div>
   </nav>

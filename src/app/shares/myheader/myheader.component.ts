@@ -8,4 +8,20 @@ import { Component } from '@angular/core';
 })
 export class MyheaderComponent {
 
+myapp:string='none';
+mycount:number=1;
+myapplication():void
+{
+    if(this.mycount==1)
+    {
+      this.myapp="block";
+      this.mycount++;
+    }
+    else{
+      this.myapp="none";
+      this.mycount=1;
+    }
+}
+
+
 }

@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { BlankpageComponent } from './layouts/blankpage/blankpage.component';
 import { FullpageComponent } from './layouts/fullpage/fullpage.component';
+import { MyerrorpageComponent } from './shares/myerrorpage/myerrorpage.component';
 const routes: Routes = [
   {
     path:'',
@@ -16,6 +17,7 @@ const routes: Routes = [
         component:BlankpageComponent,
         loadChildren: ()=> import('./auth/auth.module').then(m => m.AuthModule)
       }
+      
     ]
   },
   {
@@ -35,6 +37,10 @@ const routes: Routes = [
         path:'student',
         component:FullpageComponent,
         loadChildren: ()=> import('./student/student.module').then(m => m.StudentModule)
+      },
+      {
+        path:'**',
+        component:MyerrorpageComponent
       }
     ]
   }

@@ -8,6 +8,7 @@ import { MyfooterComponent } from './shares/myfooter/myfooter.component';
 import { MysidebarComponent } from './shares/mysidebar/mysidebar.component';
 import { FullpageComponent } from './layouts/fullpage/fullpage.component';
 import { BlankpageComponent } from './layouts/blankpage/blankpage.component';
+import { MyerrorpageComponent } from './shares/myerrorpage/myerrorpage.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { BlankpageComponent } from './layouts/blankpage/blankpage.component';
     MyfooterComponent,
     MysidebarComponent,
     FullpageComponent,
-    BlankpageComponent
+    BlankpageComponent,
+    MyerrorpageComponent
   ],
   imports: [
     BrowserModule,

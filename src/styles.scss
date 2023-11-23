@@ -18,3 +18,15 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     height:100vh !important;
 }
 
+.myapp
+{
+    width:300px;
+    min-height: 200px;
+    max-height: 500px;
+    background-color: orange;
+    border:1px solid red;
+    position: absolute;
+    right: 0;
+    top:55px;
+}
+
