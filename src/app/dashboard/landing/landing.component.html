@@ -1,1 +1,14 @@
-<h1>welcome to landing page</h1>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 p-3" *ngFor="let card of mycard">
+            <section class="border bg-info p-3">
+                <h1>Sno: {{card.sno}}</h1>
+                <h1>CourseName: {{card.corse}}</h1>
+                <img src='{{card.classimg}}' alt="abc" class="img-fluid"/>
+                <p>{{card.disc}}</p>
+                <h4>Duration: {{card.duration}}</h4>
+                <h2>ClassTime: {{card.classtime}}</h2>
+            </section>
+        </div>
+    </div>
+</div>
