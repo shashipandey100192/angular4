@@ -9,6 +9,7 @@ import { MysidebarComponent } from './shares/mysidebar/mysidebar.component';
 import { FullpageComponent } from './layouts/fullpage/fullpage.component';
 import { BlankpageComponent } from './layouts/blankpage/blankpage.component';
 import { MyerrorpageComponent } from './shares/myerrorpage/myerrorpage.component';
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { MyerrorpageComponent } from './shares/myerrorpage/myerrorpage.component
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent],

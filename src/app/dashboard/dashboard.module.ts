@@ -3,10 +3,12 @@ import { CommonModule } from '@angular/common';
 
 import { DashboardRoutingModule } from './dashboard-routing.module';
 import { LandingComponent } from './landing/landing.component';
+import { ApidataComponent } from './apidata/apidata.component';
 
 @NgModule({
   declarations: [
-    LandingComponent
+    LandingComponent,
+    ApidataComponent
   ],
   imports: [
     CommonModule,

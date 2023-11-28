@@ -1,0 +1,13 @@
+<p>apidata works!</p>
+<button type="button" (click)="mydata()">submit</button>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 border p-2" *ngFor="let d of datalist">
+            <h1>userId: {{d.userId}}</h1>
+            <h1>{{d.id}}</h1>
+            <p>{{d.title}}</p>
+            <p>{{d.body}}</p>
+        </div>
+    </div>
+</div>
+

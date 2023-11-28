@@ -192,8 +192,22 @@ Note: npm cache clean --force, npm cache clean,npm cache verify
 --------------------------------------------------------
 17) module routing/ lazy loading
 	loadChildren: ()=> import('./auth/auth.module').then((m)=>{m.AuthModule})
-	
 
+	
+18) data binding
+------------------------------------------------------------
+19) service
+	1) ng g s servicename
+	2) HttpClientModule import 		//app modules
+	3) HttpClient  import			// in server  
+	4) constructor(private http:HttpClient) { }	
+	5) HttpClient  import			// in component.ts
+	6) import server and create constructor // component.ts
+	7) create function inside component.ts
+	8) call function in component.html
+	9) 
+
+	
 	
 	
 	
