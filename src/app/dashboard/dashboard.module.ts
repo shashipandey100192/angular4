@@ -5,6 +5,7 @@ import { DashboardRoutingModule } from './dashboard-routing.module';
 import { LandingComponent } from './landing/landing.component';
 import { ApidataComponent } from './apidata/apidata.component';
 
+
 @NgModule({
   declarations: [
     LandingComponent,
@@ -12,7 +13,8 @@ import { ApidataComponent } from './apidata/apidata.component';
   ],
   imports: [
     CommonModule,
-    DashboardRoutingModule,
+    DashboardRoutingModule
+    
   ]
 })
 export class DashboardModule { }

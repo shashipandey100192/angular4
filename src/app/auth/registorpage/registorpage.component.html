@@ -1,0 +1,64 @@
+<form [formGroup]="myform" (ngSubmit)="myregistor()">
+<div class="container-fluid bg-info cus-h">
+    <div class="row justify-content-md-center">
+        <div class="col-5">
+            <div class="border login p-5 mt-5 rounded-4 shadow text-white">
+                    <div class=" text-center ">
+                        <h1>New User Registor </h1>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label class="form-label">FullName</label>
+                                <input type="text" class="form-control" formControlName="fullname" required>
+                              </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label class="form-label">Phone No</label>
+                                <input type="text" class="form-control" formControlName="phone">
+                              </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label class="form-label">Email Id</label>
+                                <input type="email" class="form-control" formControlName="email">
+                              </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label class="form-label">Address</label>
+                                <input type="text" class="form-control" formControlName="address">
+                              </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label class="form-label">DOB</label>
+                                <input type="date" class="form-control" formControlName="dob">
+                              </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label class="form-label">Gender</label>
+                                <select class="form-control" formControlName="gender">
+                                    <option hidden>Gender</option>
+                                    <option>Male</option>
+                                    <option>Female</option>
+                                </select>
+                              </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-3 form-check">
+             
+                      <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover ms-5" [routerLink]="['/dashboard']">
+                      dashboard
+                      </a>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Registor Now</button>
+                 
+            </div>
+        </div>
+    </div>
+</div>
+</form>

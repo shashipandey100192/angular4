@@ -205,7 +205,12 @@ Note: npm cache clean --force, npm cache clean,npm cache verify
 	6) import server and create constructor // component.ts
 	7) create function inside component.ts
 	8) call function in component.html
-	9) 
+	
+--------------------------------------------------------------
+20) angular forms
+	1) Template-driven Forms (FormsModule)
+	2) ReactiveFormsModule (ReactiveFormsModule)
+21) init 
 
 	
 	
