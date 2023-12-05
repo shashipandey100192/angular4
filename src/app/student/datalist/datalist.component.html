@@ -1,0 +1,38 @@
+<div class="container-fluid bg-warning ">
+    <div class="row">
+        <div class="col-12 text-center p-3">
+            <h2>Local Registor Data list</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <table class="table table-bordered border-primary">
+                <thead>
+                  <tr>
+                    <th scope="col">s.no</th>
+                    <th scope="col">Full Name</th>
+                    <th scope="col">Email id</th>
+                    <th scope="col">DOB</th>
+                    <th scope="col">Phone No</th>
+                    <th scope="col">Address</th>
+                    <th scope="col">Gender</th>
+                    <th scope="col">Actions</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let d of myobjdata; index as a">
+                    <th scope="row">{{a+1}}</th>
+                    <td>{{d.fullname}}</td>
+                    <td>{{d.email}}</td>
+                    <td>{{d.dob}}</td>
+                    <td>{{d.phone}}</td>
+                    <td>{{d.address}}</td>
+                    <td>{{d.gender}}</td>
+                    <td>actioneee</td>
+                  </tr>
+                  
+                </tbody>
+              </table>
+        </div>
+    </div>
+</div>

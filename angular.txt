@@ -210,7 +210,25 @@ Note: npm cache clean --force, npm cache clean,npm cache verify
 20) angular forms
 	1) Template-driven Forms (FormsModule)
 	2) ReactiveFormsModule (ReactiveFormsModule)
-21) init 
+		
+21) OnInit 
+
+22) storage
+	1) local storage
+		1) getItem()
+		2) setItem()
+		3) removeItem()
+		4) clear()
+		5) length
+		6) key()
+	2) session storage
+		1) getItem()
+		2) setItem()
+		3) removeItem()
+		4) clear()
+		5) length
+		6) key()
+	3) cookies
 
 	
 	

@@ -10,13 +10,22 @@
                         <div class="col-md-6">
                             <div class="mb-3">
                                 <label class="form-label">FullName</label>
-                                <input type="text" class="form-control" formControlName="fullname" required>
+                                <input type="text" class="form-control" formControlName="fullname">
+                                <div class="error" *ngIf="submited && geterr.fullname.errors">
+                                    <h4>error message</h4>
+                                    <!-- <p class="text-danger m-0" *ngIf="geterr.fullname.errors.required">required error</p>
+                                    <p class="text-danger m-0" *ngIf="geterr.fullname.errors.inlength">min length error</p>
+                                    <p class="text-danger m-0" *ngIf="geterr.fullname.errors.maxlength">max length error</p> -->
+                                </div>
                               </div>
                         </div>
                         <div class="col-md-6">
                             <div class="mb-3">
                                 <label class="form-label">Phone No</label>
                                 <input type="text" class="form-control" formControlName="phone">
+                                <div class="error" *ngIf="submited && geterr.phone.errors">
+                                        phone no is not valid
+                                </div>
                               </div>
                         </div>
                         <div class="col-md-6">
