@@ -230,6 +230,10 @@ Note: npm cache clean --force, npm cache clean,npm cache verify
 		6) key()
 	3) cookies
 
+	JSON.stringify()		// convert object to string
+	JSON.parse()			// convert string to object
+	
+
 	
 	
 	

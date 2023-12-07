@@ -17,7 +17,7 @@ export class RegistorpageComponent {
     address: new FormControl('new delhi')
   });
 
-  myalldata:any[]=[];
+myalldata:any[]=[];
 submited=false;
 
 get geterr()

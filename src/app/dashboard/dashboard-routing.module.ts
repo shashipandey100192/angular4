@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { LandingComponent } from './landing/landing.component';
 import { ApidataComponent } from './apidata/apidata.component';
+import { AccountComponent } from './account/account.component';
 
 const routes: Routes = [
   {
@@ -11,6 +12,10 @@ const routes: Routes = [
   {
     path:'api',
     component:ApidataComponent
+  },
+  {
+    path:'accounts',
+    component:AccountComponent
   }
 ];
 
