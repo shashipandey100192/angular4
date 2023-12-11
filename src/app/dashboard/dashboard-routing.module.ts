@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { LandingComponent } from './landing/landing.component';
 import { ApidataComponent } from './apidata/apidata.component';
 import { AccountComponent } from './account/account.component';
+import { ViewdetailsComponent } from './viewdetails/viewdetails.component';
 
 const routes: Routes = [
   {
@@ -16,6 +17,10 @@ const routes: Routes = [
   {
     path:'accounts',
     component:AccountComponent
+  },
+  {
+    path:'api/detailspage/:id',
+    component:ViewdetailsComponent
   }
 ];
 

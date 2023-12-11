@@ -7,6 +7,7 @@ import { ApidataComponent } from './apidata/apidata.component';
 import { AccountComponent } from './account/account.component';
 import { PersonalinfoComponent } from './components/personalinfo/personalinfo.component';
 import { BankinfoComponent } from './components/bankinfo/bankinfo.component';
+import { ViewdetailsComponent } from './viewdetails/viewdetails.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { BankinfoComponent } from './components/bankinfo/bankinfo.component';
     ApidataComponent,
     AccountComponent,
     PersonalinfoComponent,
-    BankinfoComponent
+    BankinfoComponent,
+    ViewdetailsComponent
   ],
   imports: [
     CommonModule,

@@ -8,7 +8,7 @@
             <h1><span class="fw-bold">ID:</span>{{d.id}}</h1>
             <p><span class="fw-bold">Title: </span>{{d.title}}</p>
             <p><span class="fw-bold">Information About Page: </span>{{d.body}}</p>
-            <button class="btn btn-outline-primary btn-sm">View Details</button>
+            <button class="btn btn-outline-primary btn-sm" [routerLink]="['detailspage/'+d.id]">View Details</button>
         </div>
         </div>
     </div>

@@ -232,6 +232,22 @@ Note: npm cache clean --force, npm cache clean,npm cache verify
 
 	JSON.stringify()		// convert object to string
 	JSON.parse()			// convert string to object
+------------------------------------------------
+23) param routing
+	1) create new compoent(details)
+	2) create routing in modules
+	3) create service function(api)
+	4) component(details) .ts call 
+		1) service 
+		2) ActivatedRoute
+	5) create function in componet.ts
+	6) get param form current url
+		this.id = this.http.snapshot.paramMap.get('id');
+	7) data binding in html page
+	
+
+
+
 	
 
 	
