@@ -1,6 +1,6 @@
 <p>apidata works!</p>
 <button type="button" (click)="mydata()">submit</button>
-<div class="container">
+<!-- <div class="container">
     <div class="row">
         <div class="col-md-4 mt-3" *ngFor="let d of datalist">
             <div class="border p-3 bg-light shadow">
@@ -12,5 +12,19 @@
         </div>
         </div>
     </div>
+</div> -->
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 mt-3" *ngFor="let d of myarry | paginate: { itemsPerPage: 8,currentPage: p}">
+            <div class="border p-3 bg-light shadow">
+            <h1>userId: {{d.userId}}</h1>
+            <h1><span class="fw-bold">ID:</span>{{d.id}}</h1>
+            <p><span class="fw-bold">Title: </span>{{d.title}}</p>
+            <p><span class="fw-bold">Information About Page: </span>{{d.body}}</p>
+            <button class="btn btn-outline-primary btn-sm" [routerLink]="['detailspage/'+d.id]">View Details</button>
+        </div>
+    </div>
+    <pagination-controls (pageChange)="p = $event"></pagination-controls>
 </div>
 

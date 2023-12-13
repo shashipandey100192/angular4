@@ -9,20 +9,26 @@ import { GenralService } from 'src/app/servers/genral.service';
   styleUrls: ['./apidata.component.scss']
 })
 export class ApidataComponent implements OnInit{
+p: string|number|undefined;
+
+
   constructor( private http:HttpClient, private service:GenralService){}
 datalist:any;
+myarry:any[]=[];
 
 mydata():void{
   this.service.mygetdata().subscribe((d)=>{
    console.log(d);
    this.datalist=d;
+   this.myarry=this.datalist;
   })
 }
 
 ngOnInit(): void {
     this.mydata()
-
-
 }
+
+
+
 
 }
