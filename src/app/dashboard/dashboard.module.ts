@@ -9,6 +9,12 @@ import { PersonalinfoComponent } from './components/personalinfo/personalinfo.co
 import { BankinfoComponent } from './components/bankinfo/bankinfo.component';
 import { ViewdetailsComponent } from './viewdetails/viewdetails.component';
 import { NgxPaginationModule } from 'ngx-pagination';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import {MatDialogModule} from '@angular/material/dialog';
+import {MatButtonModule} from '@angular/material/button';
+import { MymodelComponent } from './mymodel/mymodel.component';
+import { MycustomPipe } from './mycustom.pipe';
+
 
 
 @NgModule({
@@ -18,12 +24,19 @@ import { NgxPaginationModule } from 'ngx-pagination';
     AccountComponent,
     PersonalinfoComponent,
     BankinfoComponent,
-    ViewdetailsComponent
+    ViewdetailsComponent,
+    MymodelComponent,
+    MycustomPipe
+   
   ],
   imports: [
     CommonModule,
     DashboardRoutingModule,
-    NgxPaginationModule
+    NgxPaginationModule,
+    ReactiveFormsModule,
+    FormsModule,
+    MatButtonModule,
+    MatDialogModule
     
   ]
 })

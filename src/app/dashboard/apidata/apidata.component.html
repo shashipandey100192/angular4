@@ -14,7 +14,7 @@
     </div>
 </div> -->
 
-<div class="container">
+<!-- <div class="container">
     <div class="row">
         <div class="col-md-4 mt-3" *ngFor="let d of myarry | paginate: { itemsPerPage: 8,currentPage: p}">
             <div class="border p-3 bg-light shadow">
@@ -26,5 +26,32 @@
         </div>
     </div>
     <pagination-controls (pageChange)="p = $event"></pagination-controls>
-</div>
+</div> -->
+
+
+<label for="searchProduct">Search by Products</label>
+<input type="text" class="form-control" id="searchProduct"  [(ngModel)]="searchBoxTxt" name="searchBoxTxt"aria-describedby="productName">
+<small id="productName" class="form-text text-muted" *ngIf="!searchBoxTxt">Please Enter Product Name</small>
+<br>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">id</th>
+      <th scope="col">title</th>
+      <th scope="col">body</th>
+      <th scope="col">userId</th>
+      <th scope="col"></th>
+    </tr>
+  </thead>
+  <tbody>
+   <tr *ngFor="let item of myarry | mycustom: searchBoxTxt ">
+      <td class="text-center">{{item.id}}</td>
+      <td>{{item.title}}</td>
+      <td class="text-center">{{item.body}}</td>
+      <td class="text-right">{{item.userId}}</td>
+  </tr>
+  </tbody>
+</table>
+
+
 
